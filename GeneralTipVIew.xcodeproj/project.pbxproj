@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EA2E2612122C77100AF998D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E2602122C77100AF998D /* AppDelegate.m */; };
+		5EA2E2642122C77100AF998D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E2632122C77100AF998D /* ViewController.m */; };
+		5EA2E2672122C77100AF998D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA2E2652122C77100AF998D /* Main.storyboard */; };
+		5EA2E26A2122C77100AF998D /* GeneralTipVIew.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E2682122C77100AF998D /* GeneralTipVIew.xcdatamodeld */; };
+		5EA2E26C2122C77100AF998D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA2E26B2122C77100AF998D /* Assets.xcassets */; };
+		5EA2E26F2122C77100AF998D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA2E26D2122C77100AF998D /* LaunchScreen.storyboard */; };
+		5EA2E2722122C77100AF998D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E2712122C77100AF998D /* main.m */; };
+		5EA2E27C2122C77200AF998D /* GeneralTipVIewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E27B2122C77200AF998D /* GeneralTipVIewTests.m */; };
+		5EA2E2872122C77200AF998D /* GeneralTipVIewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E2862122C77200AF998D /* GeneralTipVIewUITests.m */; };
+		5EA2E2972122C80F00AF998D /* TipViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E2952122C80F00AF998D /* TipViewManager.m */; };
+		5EA2E29A2122C83D00AF998D /* PopBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E2982122C83D00AF998D /* PopBGView.m */; };
+		5EA2E29F2122C88700AF998D /* UIView+WispFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E29B2122C88700AF998D /* UIView+WispFrame.m */; };
+		5EA2E2A02122C88700AF998D /* UILabel+WispLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E29E2122C88700AF998D /* UILabel+WispLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EA2E2782122C77200AF998D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EA2E2542122C77100AF998D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EA2E25B2122C77100AF998D;
+			remoteInfo = GeneralTipVIew;
+		};
+		5EA2E2832122C77200AF998D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EA2E2542122C77100AF998D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EA2E25B2122C77100AF998D;
+			remoteInfo = GeneralTipVIew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EA2E25C2122C77100AF998D /* GeneralTipVIew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralTipVIew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA2E25F2122C77100AF998D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EA2E2602122C77100AF998D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EA2E2622122C77100AF998D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EA2E2632122C77100AF998D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EA2E2662122C77100AF998D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EA2E2692122C77100AF998D /* GeneralTipVIew.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeneralTipVIew.xcdatamodel; sourceTree = "<group>"; };
+		5EA2E26B2122C77100AF998D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EA2E26E2122C77100AF998D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EA2E2702122C77100AF998D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA2E2712122C77100AF998D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EA2E2772122C77200AF998D /* GeneralTipVIewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralTipVIewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA2E27B2122C77200AF998D /* GeneralTipVIewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralTipVIewTests.m; sourceTree = "<group>"; };
+		5EA2E27D2122C77200AF998D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA2E2822122C77200AF998D /* GeneralTipVIewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralTipVIewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA2E2862122C77200AF998D /* GeneralTipVIewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralTipVIewUITests.m; sourceTree = "<group>"; };
+		5EA2E2882122C77200AF998D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA2E2952122C80F00AF998D /* TipViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewManager.m; sourceTree = "<group>"; };
+		5EA2E2962122C80F00AF998D /* TipViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewManager.h; sourceTree = "<group>"; };
+		5EA2E2982122C83D00AF998D /* PopBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopBGView.m; sourceTree = "<group>"; };
+		5EA2E2992122C83D00AF998D /* PopBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopBGView.h; sourceTree = "<group>"; };
+		5EA2E29B2122C88700AF998D /* UIView+WispFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WispFrame.m"; sourceTree = "<group>"; };
+		5EA2E29C2122C88700AF998D /* UIView+WispFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WispFrame.h"; sourceTree = "<group>"; };
+		5EA2E29D2122C88700AF998D /* UILabel+WispLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WispLabel.h"; sourceTree = "<group>"; };
+		5EA2E29E2122C88700AF998D /* UILabel+WispLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WispLabel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA2E2592122C77100AF998D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA2E2742122C77200AF998D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA2E27F2122C77200AF998D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EA2E2532122C77100AF998D = {
+			isa = PBXGroup;
+			children = (
+				5EA2E2942122C80F00AF998D /* TipViewManager */,
+				5EA2E25E2122C77100AF998D /* GeneralTipVIew-Ex */,
+				5EA2E27A2122C77200AF998D /* GeneralTipVIewTests */,
+				5EA2E2852122C77200AF998D /* GeneralTipVIewUITests */,
+				5EA2E25D2122C77100AF998D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA2E25D2122C77100AF998D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA2E25C2122C77100AF998D /* GeneralTipVIew.app */,
+				5EA2E2772122C77200AF998D /* GeneralTipVIewTests.xctest */,
+				5EA2E2822122C77200AF998D /* GeneralTipVIewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA2E25E2122C77100AF998D /* GeneralTipVIew-Ex */ = {
+			isa = PBXGroup;
+			children = (
+				5EA2E25F2122C77100AF998D /* AppDelegate.h */,
+				5EA2E2602122C77100AF998D /* AppDelegate.m */,
+				5EA2E2622122C77100AF998D /* ViewController.h */,
+				5EA2E2632122C77100AF998D /* ViewController.m */,
+				5EA2E2652122C77100AF998D /* Main.storyboard */,
+				5EA2E26B2122C77100AF998D /* Assets.xcassets */,
+				5EA2E26D2122C77100AF998D /* LaunchScreen.storyboard */,
+				5EA2E2702122C77100AF998D /* Info.plist */,
+				5EA2E2712122C77100AF998D /* main.m */,
+				5EA2E2682122C77100AF998D /* GeneralTipVIew.xcdatamodeld */,
+			);
+			path = "GeneralTipVIew-Ex";
+			sourceTree = "<group>";
+		};
+		5EA2E27A2122C77200AF998D /* GeneralTipVIewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EA2E27B2122C77200AF998D /* GeneralTipVIewTests.m */,
+				5EA2E27D2122C77200AF998D /* Info.plist */,
+			);
+			path = GeneralTipVIewTests;
+			sourceTree = "<group>";
+		};
+		5EA2E2852122C77200AF998D /* GeneralTipVIewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EA2E2862122C77200AF998D /* GeneralTipVIewUITests.m */,
+				5EA2E2882122C77200AF998D /* Info.plist */,
+			);
+			path = GeneralTipVIewUITests;
+			sourceTree = "<group>";
+		};
+		5EA2E2942122C80F00AF998D /* TipViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EA2E2962122C80F00AF998D /* TipViewManager.h */,
+				5EA2E2952122C80F00AF998D /* TipViewManager.m */,
+				5EA2E2992122C83D00AF998D /* PopBGView.h */,
+				5EA2E2982122C83D00AF998D /* PopBGView.m */,
+				5EA2E29D2122C88700AF998D /* UILabel+WispLabel.h */,
+				5EA2E29E2122C88700AF998D /* UILabel+WispLabel.m */,
+				5EA2E29C2122C88700AF998D /* UIView+WispFrame.h */,
+				5EA2E29B2122C88700AF998D /* UIView+WispFrame.m */,
+			);
+			path = TipViewManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EA2E25B2122C77100AF998D /* GeneralTipVIew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA2E28B2122C77200AF998D /* Build configuration list for PBXNativeTarget "GeneralTipVIew" */;
+			buildPhases = (
+				5EA2E2582122C77100AF998D /* Sources */,
+				5EA2E2592122C77100AF998D /* Frameworks */,
+				5EA2E25A2122C77100AF998D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeneralTipVIew;
+			productName = GeneralTipVIew;
+			productReference = 5EA2E25C2122C77100AF998D /* GeneralTipVIew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EA2E2762122C77200AF998D /* GeneralTipVIewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA2E28E2122C77200AF998D /* Build configuration list for PBXNativeTarget "GeneralTipVIewTests" */;
+			buildPhases = (
+				5EA2E2732122C77200AF998D /* Sources */,
+				5EA2E2742122C77200AF998D /* Frameworks */,
+				5EA2E2752122C77200AF998D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EA2E2792122C77200AF998D /* PBXTargetDependency */,
+			);
+			name = GeneralTipVIewTests;
+			productName = GeneralTipVIewTests;
+			productReference = 5EA2E2772122C77200AF998D /* GeneralTipVIewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EA2E2812122C77200AF998D /* GeneralTipVIewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA2E2912122C77200AF998D /* Build configuration list for PBXNativeTarget "GeneralTipVIewUITests" */;
+			buildPhases = (
+				5EA2E27E2122C77200AF998D /* Sources */,
+				5EA2E27F2122C77200AF998D /* Frameworks */,
+				5EA2E2802122C77200AF998D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EA2E2842122C77200AF998D /* PBXTargetDependency */,
+			);
+			name = GeneralTipVIewUITests;
+			productName = GeneralTipVIewUITests;
+			productReference = 5EA2E2822122C77200AF998D /* GeneralTipVIewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EA2E2542122C77100AF998D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Xush;
+				TargetAttributes = {
+					5EA2E25B2122C77100AF998D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5EA2E2762122C77200AF998D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5EA2E25B2122C77100AF998D;
+					};
+					5EA2E2812122C77200AF998D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5EA2E25B2122C77100AF998D;
+					};
+				};
+			};
+			buildConfigurationList = 5EA2E2572122C77100AF998D /* Build configuration list for PBXProject "GeneralTipVIew" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EA2E2532122C77100AF998D;
+			productRefGroup = 5EA2E25D2122C77100AF998D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EA2E25B2122C77100AF998D /* GeneralTipVIew */,
+				5EA2E2762122C77200AF998D /* GeneralTipVIewTests */,
+				5EA2E2812122C77200AF998D /* GeneralTipVIewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA2E25A2122C77100AF998D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA2E26F2122C77100AF998D /* LaunchScreen.storyboard in Resources */,
+				5EA2E26C2122C77100AF998D /* Assets.xcassets in Resources */,
+				5EA2E2672122C77100AF998D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA2E2752122C77200AF998D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA2E2802122C77200AF998D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA2E2582122C77100AF998D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA2E2642122C77100AF998D /* ViewController.m in Sources */,
+				5EA2E29F2122C88700AF998D /* UIView+WispFrame.m in Sources */,
+				5EA2E2A02122C88700AF998D /* UILabel+WispLabel.m in Sources */,
+				5EA2E2972122C80F00AF998D /* TipViewManager.m in Sources */,
+				5EA2E26A2122C77100AF998D /* GeneralTipVIew.xcdatamodeld in Sources */,
+				5EA2E2722122C77100AF998D /* main.m in Sources */,
+				5EA2E2612122C77100AF998D /* AppDelegate.m in Sources */,
+				5EA2E29A2122C83D00AF998D /* PopBGView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA2E2732122C77200AF998D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA2E27C2122C77200AF998D /* GeneralTipVIewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA2E27E2122C77200AF998D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA2E2872122C77200AF998D /* GeneralTipVIewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EA2E2792122C77200AF998D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EA2E25B2122C77100AF998D /* GeneralTipVIew */;
+			targetProxy = 5EA2E2782122C77200AF998D /* PBXContainerItemProxy */;
+		};
+		5EA2E2842122C77200AF998D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EA2E25B2122C77100AF998D /* GeneralTipVIew */;
+			targetProxy = 5EA2E2832122C77200AF998D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EA2E2652122C77100AF998D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA2E2662122C77100AF998D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EA2E26D2122C77100AF998D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA2E26E2122C77100AF998D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EA2E2892122C77200AF998D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EA2E28A2122C77200AF998D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EA2E28C2122C77200AF998D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXE5KCM6E6;
+				INFOPLIST_FILE = "$(SRCROOT)/GeneralTipVIew-Ex/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Approach.GeneralTipVIew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EA2E28D2122C77200AF998D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXE5KCM6E6;
+				INFOPLIST_FILE = "$(SRCROOT)/GeneralTipVIew-Ex/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Approach.GeneralTipVIew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EA2E28F2122C77200AF998D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXE5KCM6E6;
+				INFOPLIST_FILE = GeneralTipVIewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Approach.GeneralTipVIewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeneralTipVIew.app/GeneralTipVIew";
+			};
+			name = Debug;
+		};
+		5EA2E2902122C77200AF998D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXE5KCM6E6;
+				INFOPLIST_FILE = GeneralTipVIewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Approach.GeneralTipVIewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeneralTipVIew.app/GeneralTipVIew";
+			};
+			name = Release;
+		};
+		5EA2E2922122C77200AF998D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXE5KCM6E6;
+				INFOPLIST_FILE = GeneralTipVIewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Approach.GeneralTipVIewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeneralTipVIew;
+			};
+			name = Debug;
+		};
+		5EA2E2932122C77200AF998D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NXE5KCM6E6;
+				INFOPLIST_FILE = GeneralTipVIewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Approach.GeneralTipVIewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeneralTipVIew;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EA2E2572122C77100AF998D /* Build configuration list for PBXProject "GeneralTipVIew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA2E2892122C77200AF998D /* Debug */,
+				5EA2E28A2122C77200AF998D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA2E28B2122C77200AF998D /* Build configuration list for PBXNativeTarget "GeneralTipVIew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA2E28C2122C77200AF998D /* Debug */,
+				5EA2E28D2122C77200AF998D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA2E28E2122C77200AF998D /* Build configuration list for PBXNativeTarget "GeneralTipVIewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA2E28F2122C77200AF998D /* Debug */,
+				5EA2E2902122C77200AF998D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA2E2912122C77200AF998D /* Build configuration list for PBXNativeTarget "GeneralTipVIewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA2E2922122C77200AF998D /* Debug */,
+				5EA2E2932122C77200AF998D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EA2E2682122C77100AF998D /* GeneralTipVIew.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EA2E2692122C77100AF998D /* GeneralTipVIew.xcdatamodel */,
+			);
+			currentVersion = 5EA2E2692122C77100AF998D /* GeneralTipVIew.xcdatamodel */;
+			path = GeneralTipVIew.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EA2E2542122C77100AF998D /* Project object */;
+}
