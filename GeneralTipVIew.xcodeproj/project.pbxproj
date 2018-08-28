@@ -20,6 +20,7 @@
 		5EA2E29A2122C83D00AF998D /* PopBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E2982122C83D00AF998D /* PopBGView.m */; };
 		5EA2E29F2122C88700AF998D /* UIView+WispFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E29B2122C88700AF998D /* UIView+WispFrame.m */; };
 		5EA2E2A02122C88700AF998D /* UILabel+WispLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E29E2122C88700AF998D /* UILabel+WispLabel.m */; };
+		5EA2E2A32122D1E400AF998D /* DemoMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E2A22122D1E400AF998D /* DemoMainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		5EA2E29C2122C88700AF998D /* UIView+WispFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WispFrame.h"; sourceTree = "<group>"; };
 		5EA2E29D2122C88700AF998D /* UILabel+WispLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WispLabel.h"; sourceTree = "<group>"; };
 		5EA2E29E2122C88700AF998D /* UILabel+WispLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WispLabel.m"; sourceTree = "<group>"; };
+		5EA2E2A12122D1E400AF998D /* DemoMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMainView.h; sourceTree = "<group>"; };
+		5EA2E2A22122D1E400AF998D /* DemoMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 			children = (
 				5EA2E25F2122C77100AF998D /* AppDelegate.h */,
 				5EA2E2602122C77100AF998D /* AppDelegate.m */,
+				5EA2E2A12122D1E400AF998D /* DemoMainView.h */,
+				5EA2E2A22122D1E400AF998D /* DemoMainView.m */,
 				5EA2E2622122C77100AF998D /* ViewController.h */,
 				5EA2E2632122C77100AF998D /* ViewController.m */,
 				5EA2E2652122C77100AF998D /* Main.storyboard */,
@@ -294,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EA2E2642122C77100AF998D /* ViewController.m in Sources */,
+				5EA2E2A32122D1E400AF998D /* DemoMainView.m in Sources */,
 				5EA2E29F2122C88700AF998D /* UIView+WispFrame.m in Sources */,
 				5EA2E2A02122C88700AF998D /* UILabel+WispLabel.m in Sources */,
 				5EA2E2972122C80F00AF998D /* TipViewManager.m in Sources */,

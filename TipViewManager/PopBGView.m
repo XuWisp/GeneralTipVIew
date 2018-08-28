@@ -9,8 +9,6 @@
 #import "PopBGView.h"
 #import "UIView+WispFrame.h"
 
-NSString *const PopViewHideNoti = @"PopViewHideNoti";
-NSString *const PopViewShowNoti = @"PopViewShowNoti";
 
 @interface PopBGView ()
 

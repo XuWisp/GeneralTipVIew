@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+NSString *const PopViewHideNoti = @"PopViewHideNoti";
+NSString *const PopViewShowNoti = @"PopViewShowNoti";
+
 @interface PopBGView : UIView
 
 @property (nonatomic, strong) UIView *mainV;
